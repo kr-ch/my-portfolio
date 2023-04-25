@@ -1096,11 +1096,16 @@ header .row {
 header .top-bar {
 	display: block;
 	background: #000000;
-	min-width: 220px;
+	min-width: 75px;
 	min-height: 66px;
+	transition: all 0.75s;
 	position: absolute;
 	left: 90px;
 	top: 0;
+}
+header .top-bar.is-opened {
+	min-width: 220px;
+	transition: none;
 }
 header .logo {
 	float: left;
