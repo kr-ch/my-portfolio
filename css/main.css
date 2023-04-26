@@ -1623,7 +1623,7 @@ header .logo a {
  *
  * ------------------------------------------------------------------- 
  */
-#resume {
+#resume, #blog {
 	padding-top: 12rem;
 	padding-bottom: 12rem;
 }
@@ -2107,6 +2107,7 @@ header .logo a {
 	color: white;
 	position: relative;
 }
+
 #services .overlay {
 	position: absolute;
 	top: 0;
